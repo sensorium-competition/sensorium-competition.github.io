@@ -1,0 +1,36 @@
+title: Sensorium Competition
+description: Advancing neural predictive models of the visual cortex
+url: https://sensorium-competition.github.io
+baseurl: ""
+
+# Organization info
+email: contact@sensorium-competition.net
+github_username: sensorium-competition
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+collections:
+  competitions:
+    output: true
+    permalink: /:collection/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/
+  - README.md
+  - setup.sh

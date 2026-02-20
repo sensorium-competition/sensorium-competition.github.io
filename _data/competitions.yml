@@ -1,0 +1,25 @@
+- year: 2023
+  title: "Sensorium 2023: Dynamic Visual Stimuli"
+  description: "Predicting neural responses to natural scene videos. This edition introduced temporal dynamics, using ~1800 videos (~10 seconds each) as stimuli."
+  neurons: "78,853"
+  stimuli: "1,200"
+  stimuli_type: "minutes of video"
+  mice: 10
+  results_paper_url: "https://openreview.net/forum?id=gViJjwRUlM#discussion"
+  white_paper_url: "https://arxiv.org/abs/2305.19654"
+  code_url: "https://github.com/ecker-lab/sensorium_2023"
+  data_url: "https://gin.g-node.org/pollytur/sensorium_2023_dataset"
+  site_url: "https://2023.sensorium-competition.net"
+
+- year: 2022
+  title: "Sensorium 2022: Static Visual Stimuli"
+  description: "The inaugural competition focused on predicting neural responses to natural images. Participants built models to predict activity from thousands of neurons."
+  neurons: "28,000+"
+  stimuli: "25,200"
+  stimuli_type: "unique images"
+  mice: 7
+  white_paper_url: "https://arxiv.org/abs/2206.08666"
+  results_paper_url: "https://proceedings.mlr.press/v220/willeke23a/willeke23a.pdf"
+  code_url: "https://github.com/sinzlab/sensorium"
+  data_url: "https://gin.g-node.org/cajal/Sensorium2022"
+  # site_url: ""

@@ -1,0 +1,56 @@
+organizers:
+  - name: "Fabian H. Sinz"
+    affiliation: "University of Göttingen"
+    website: "https://sinzlab.org"
+    initials: "FS"
+    image: "fabee.png"
+  
+  - name: "Alexander S. Ecker"
+    affiliation: "University of Göttingen"
+    website: "https://eckerlab.org/"
+    initials: "AE"
+    image: "alex.jpg"
+  
+  - name: "Andreas S. Tolias"
+    affiliation: "Stanford"
+    website: "https://toliaslab.org/"
+    initials: "AT"
+    image: "andreas.png"
+
+leads:
+  - name: "Polina Turishcheva"
+    title: "2023 Lead"
+    affiliation: "University of Göttingen"
+    initials: "PT"
+    image: "polina.png"
+  
+  - name: "Konstantin F. Willeke"
+    title: "2022 Lead"
+    affiliation: "University of Göttingen"
+    initials: "KW"
+    image: "konsti.png"
+
+  - name: "Paul Fahey"
+    title: "2022 & 2023 Data Lead"
+    affiliation: "Baylor College of Medicine/Stanford"
+    initials: "PF"
+    image: "paul.png"
+
+contributors:
+  - Mohammad Bashiri
+  - Laura Pede
+  - Max F. Burg
+  - Christoph Blessing
+  - Santiago A. Cadena
+  - Zhiwei Ding
+  - Konstantin-Klemens Lurz
+  - Kayla Ponder
+  - Taliah Muhammad
+  - Saumil S. Patel
+  - Michaela Vystrcilova
+  - Laura Hansel
+  - Rachel Froebe
+  - Kayla Ponder
+  - Yongrong Qiu
+  - Eric Wang
+  - Zhiwei Ding
