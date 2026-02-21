@@ -206,7 +206,11 @@ title: Home
         <div class="contributors-list">
             <ul>
                 {% for contributor in site.data.team.contributors %}
-                <li>{{ contributor }}</li>
+                {% assign mouse_num = forloop.index | modulo: 6 | plus: 1 %}
+                <li>
+                    <img src="{{ '/assets/img/mice/mouse0' | append: mouse_num | append: '.png' | relative_url }}" alt="" class="contributor-mouse">
+                    <span>{{ contributor }}</span>
+                </li>
                 {% endfor %}
             </ul>
         </div>
@@ -217,8 +221,21 @@ title: Home
 <!-- Contact Section -->
 <section id="contact" class="contact">
     <div class="container">
+        <img src="{{ '/assets/img/mice/mailmouse.png' | relative_url }}" alt="" class="contact-mouse">
         <h2>Contact</h2>
         <!-- <p>For inquiries, contact us at <a href="mailto:{{ site.email }}">{{ site.email }}</a></p> -->
         <p>Follow us on GitHub: <a href="https://github.com/{{ site.github_username }}" target="_blank">@{{ site.github_username }}</a></p>
+    </div>
+</section>
+
+<!-- Funding Section -->
+<section class="funding">
+    <div class="container">
+        <h2>Funding</h2>
+        <div class="funding-grid">
+            <div class="funding-card">
+                <img src="{{ '/assets/img/funding/bmbf.png' | relative_url }}" alt="BMBF - Bundesministerium für Bildung und Forschung" class="funding-logo">
+            </div>
+        </div>
     </div>
 </section>
